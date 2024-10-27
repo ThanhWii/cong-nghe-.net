@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!-- <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besnik</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="~/Content/assets/css/reset.css">
+    <link rel="stylesheet" href="~/Content/assets/css/min.desktop.frontend.202188a1.css?v=202410111" />
+    <!-- Embed Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="~/Content/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/Content/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Content/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Content/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Content/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/Content/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/Content/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Content/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="~/Content/assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/Content/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Style -->
+    <link rel="stylesheet" href="~/Content/assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="~/Content/assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="content">
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="#" class="logo"><img src="~/Content/assets/img/Logo.svg" alt="Besnik"></a>
+
+                <!-- Navigation -->
+                <ul id="pc-nav">
+                    <li><a href="/home/index">Trang chủ</a></li>
+                    <li><a href="/thuephongtro/index">Cho thuê phòng trọ</a></li>
+                    <li><a href="#">Nhà cho thuê</a></li>
+                    <li><a href="#">Cho thuê căn hộ</a></li>
+                    <li><a href="#">Cho thuê mặt bằng</a></li>
+                </ul>
+
+                <!-- Action -->
+                <div class="actions">
+                    <a href="#!" class="action-link">Đăng nhập</a>
+                    <a href="#!" class="btn action-btn">Đăng ký</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer class="footer">
+        <div class="content">
+            <div class="row row-bottom">
+                <img src="~/Content/assets/img/Logo.svg" alt="Besnik" class="logo">
+                <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
