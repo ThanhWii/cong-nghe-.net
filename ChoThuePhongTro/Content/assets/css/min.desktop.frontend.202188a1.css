@@ -2626,10 +2626,12 @@ figure img:hover {
   width: 100% !important;
 } */
 .icon {
+    /*
   width: 16px;
   height: 16px;
   display: inline-block;
   margin-right: 5px;
+  */
 }
 .icon.size-18 {
   width: 18px !important;

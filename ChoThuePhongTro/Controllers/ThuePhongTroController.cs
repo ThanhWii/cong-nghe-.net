@@ -13,5 +13,7 @@ namespace ChoThuePhongTro.Controllers
         {
             return View();
         }
+
+        public ActionResult Details() { return View(); }
     }
 }
