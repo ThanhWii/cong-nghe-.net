@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Software\\C#Project\\ChoThuePhongTro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|d:\\software\\c#project\\chothuephongtro\\chothuephongtro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|d:\\software\\c#project\\chothuephongtro\\chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -114,8 +114,7 @@
               "RelativeToolTip": "ChoThuePhongTro\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAGAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T10:20:18.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T10:20:18.733Z"
             },
             {
               "$type": "Document",
@@ -125,7 +124,7 @@
               "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAkAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T10:24:31.914Z",
               "EditorCaption": ""
