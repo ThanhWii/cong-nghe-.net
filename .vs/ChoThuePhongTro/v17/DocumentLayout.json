@@ -7,20 +7,44 @@
       "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|d:\\software\\c#project\\chothuephongtro\\chothuephongtro\\views\\thuephongtro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\thuephongtro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\controllers\\thuephongtrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\controllers\\thuephongtrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|d:\\software\\c#project\\chothuephongtro\\chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\thuenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\thuenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\controllers\\thuecanhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\controllers\\thuecanhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Content\\assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChoThuePhongTro\\Content\\assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\thuecanho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\thuecanho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\tintuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\tintuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\thuephongtro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\thuephongtro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\views\\thuematbang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\views\\thuematbang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|D:\\Software\\C#Project\\ChoThuePhongTro\\chothuephongtro\\controllers\\thuematbangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1DC0BC-0D0D-4FA3-B1A0-FCC8E22A9D69}|ChoThuePhongTro\\ChoThuePhongTro.csproj|solutionrelative:chothuephongtro\\controllers\\thuematbangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +54,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueCanHo\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\ThueCanHo\\Index.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueCanHo\\Index.cshtml",
+              "RelativeToolTip": "ChoThuePhongTro\\Views\\ThueCanHo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T04:04:41.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThueCanHoController.cs",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThueCanHoController.cs",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Controllers\\ThueCanHoController.cs",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThueCanHoController.cs",
+              "RelativeToolTip": "ChoThuePhongTro\\Controllers\\ThueCanHoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T04:04:32.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueNha\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\ThueNha\\Index.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueNha\\Index.cshtml",
+              "RelativeToolTip": "ChoThuePhongTro\\Views\\ThueNha\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T03:28:23.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThuePhongTro\\Index.cshtml",
               "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\ThuePhongTro\\Index.cshtml",
               "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThuePhongTro\\Index.cshtml",
               "RelativeToolTip": "ChoThuePhongTro\\Views\\ThuePhongTro\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAABZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T13:22:46.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T13:22:46.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThuePhongTroController.cs",
-              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThuePhongTroController.cs",
-              "RelativeDocumentMoniker": "ChoThuePhongTro\\Controllers\\ThuePhongTroController.cs",
-              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThuePhongTroController.cs",
-              "RelativeToolTip": "ChoThuePhongTro\\Controllers\\ThuePhongTroController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T13:22:26.357Z"
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChoThuePhongTro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T10:20:18.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,34 +125,70 @@
               "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ChoThuePhongTro\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAABCAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T10:24:31.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ChoThuePhongTro\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGcAAAAqAAAA",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueMatBang\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\ThueMatBang\\Index.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\ThueMatBang\\Index.cshtml",
+              "RelativeToolTip": "ChoThuePhongTro\\Views\\ThueMatBang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T10:20:18.733Z"
+              "WhenOpened": "2024-10-28T04:05:31.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TinTucController.cs",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\TinTucController.cs",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Controllers\\TinTucController.cs",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\TinTucController.cs",
+              "RelativeToolTip": "ChoThuePhongTro\\Controllers\\TinTucController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T04:06:13.901Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ChoThuePhongTro\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ChoThuePhongTro\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Content\\assets\\css\\styles.css",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Content\\assets\\css\\styles.css",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Content\\assets\\css\\styles.css",
+              "RelativeToolTip": "ChoThuePhongTro\\Content\\assets\\css\\styles.css",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-27T14:12:20.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThueMatBangController.cs",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThueMatBangController.cs",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Controllers\\ThueMatBangController.cs",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Controllers\\ThueMatBangController.cs",
+              "RelativeToolTip": "ChoThuePhongTro\\Controllers\\ThueMatBangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:20:14.693Z"
+              "WhenOpened": "2024-10-28T04:05:23.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\TinTuc\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChoThuePhongTro\\Views\\TinTuc\\Index.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\ChoThuePhongTro\\ChoThuePhongTro\\Views\\TinTuc\\Index.cshtml",
+              "RelativeToolTip": "ChoThuePhongTro\\Views\\TinTuc\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T04:06:23.558Z"
             }
           ]
         }

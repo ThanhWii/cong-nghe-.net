@@ -117,7 +117,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ThueCanHoController.cs" />
+    <Compile Include="Controllers\ThueMatBangController.cs" />
+    <Compile Include="Controllers\ThueNhaController.cs" />
     <Compile Include="Controllers\ThuePhongTroController.cs" />
+    <Compile Include="Controllers\TinTucController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,6 +158,10 @@
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Views\ThuePhongTro\Index.cshtml" />
+    <Content Include="Views\ThueNha\Index.cshtml" />
+    <Content Include="Views\ThueCanHo\Index.cshtml" />
+    <Content Include="Views\ThueMatBang\Index.cshtml" />
+    <Content Include="Views\TinTuc\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
