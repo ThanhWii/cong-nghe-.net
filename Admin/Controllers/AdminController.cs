@@ -635,33 +635,33 @@ namespace Admin.Controllers
             if (sdtExists)
             {
                 ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
-                ViewData["err"] = "Số điện thoại đã tồn tại.";
+                TempData["err"] = "Số điện thoại đã tồn tại.";
                 return View(khach);
             }
             bool cmndExists = ql.KhachThue.Any(tk => tk.CMND == khach.CMND);
             if (cmndExists)
             {
                 ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
-                ViewData["err"] = "Số CMND đã tồn tại.";
+                TempData["err"] = "Số CMND đã tồn tại.";
                 return View(khach);
             }
             if (khach.HoTenDem == null || khach.Ten == null || khach.CMND == null || khach.DienThoai == null || khach.NgayVaoO == null || khach.MaPhong==null)
             {
                 ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
-                ViewData["err"] = "Vui lòng điền đầy đủ thông tin.";
+                TempData["err"] = "Vui lòng điền đầy đủ thông tin.";
                 return View();
             }
             if (!IsPhoneNumberValid(khach.DienThoai))
             {
                 ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
-                ViewData["err"] = "Số điện thoại không hợp lệ. Số điện thoại phải có 10 số.";
+                TempData["err"] = "Số điện thoại không hợp lệ. Số điện thoại phải có 10 số.";
                 return View();
             }
 
             if (!IsVietnameseIDValid(khach.CMND))
             {
                 ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
-                ViewData["err"] = "Số CMND không hợp lệ. Số CMND phải có 9 hoặc 12 chữ số.";
+                TempData["err"] = "Số CCCD không hợp lệ. Số CCCD phải có 12 chữ số.";
                 return View();
             }
             if (ModelState.IsValid)
@@ -673,8 +673,9 @@ namespace Admin.Controllers
                 {
                     phong.DaThue = true;
                     ql.SaveChanges();
+                    TempData["success"] = "Bạn đã thêm khách thuê trọ thành công";
                 }
-                return RedirectToAction("KH",new {success = "Bạn đã thêm khách thuê trọ thành công" });
+                return RedirectToAction("KH");
             }
             ViewBag.MaPhongList = new SelectList(ql.Phong.Where(u => u.DaThue == false), "MaPhong", "SoPhong");
             return View();
@@ -712,10 +713,9 @@ namespace Admin.Controllers
                     existingRoom.MaPhong = MaPhongCu;
                     ql.SaveChanges();
                 }
-
-                return RedirectToAction("KH",new {success = "Bạn đã sửa thông tin khách hàng thành công" });
+                TempData["success"] = "Bạn đã sửa thông tin khách hàng thành công";
+                return RedirectToAction("KH");
             }
-
             return View(khach);
         }
 
@@ -742,8 +742,8 @@ namespace Admin.Controllers
             }
             ql.KhachThue.Remove(roomToDelete);
             ql.SaveChanges();
-
-            return RedirectToAction("KH",new {success = "Bạn đã xóa khách hàng thành công"});
+            TempData["success"] = "Bạn đã xóa khách hàng thành công";
+            return RedirectToAction("KH");
         }
         public ActionResult DH(int? page)
         {
