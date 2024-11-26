@@ -14,9 +14,11 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.Text.RegularExpressions;
 using Org.BouncyCastle.Crypto.Macs;
+using Admin.Filters;
 
 namespace Admin.Controllers
 {
+    [RequireLogin]
     public class AdminController : Controller
     {
         private QLPhongTro ql = new QLPhongTro();
@@ -25,7 +27,7 @@ namespace Admin.Controllers
             //Câu lệnh truyền vào view khi CRUD thành công
             if (!string.IsNullOrEmpty(success))
             {
-                ViewData["success"] = success;
+                TempData["success"] = success;
             }
             return View();
         }
@@ -50,7 +52,7 @@ namespace Admin.Controllers
                 }
             }
             //Thông báo không có tài khoản trên
-            ViewData["err"] = "Tài khoản hoặc mật khẩu không đúng";
+            TempData["err"] = "Tài khoản hoặc mật khẩu không đúng";
             return View();
         }
         public ActionResult Phong(int? page)
@@ -69,7 +71,7 @@ namespace Admin.Controllers
             // Số trang
             int pageNumber = (page ?? 1);
             // Lấy danh sách phòng theo mã phòng giảm dần
-            var phong = ql.Phong.OrderByDescending(p => p.MaPhong).ToPagedList(pageNumber, pageSize);
+            var phong = ql.Phong.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize);
 
             return View(phong);
         }
@@ -89,9 +91,9 @@ namespace Admin.Controllers
             {
                 phongs = phongs.Where(p => p.DaThue == daThue.Value);
             }
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
-            return View("Phong", phongs.OrderByDescending(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
+            return View("Phong", phongs.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
         }
         public ActionResult SearchDien(string searchString, int? page)
         {
@@ -108,7 +110,7 @@ namespace Admin.Controllers
             }
 
 
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             return View("Dien", dien.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
         }
@@ -126,7 +128,7 @@ namespace Admin.Controllers
             }
 
 
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             return View("Nuoc", nuoc.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
         }
@@ -139,7 +141,7 @@ namespace Admin.Controllers
                 hd = hd.Where(p => p.Phong.SoPhong.Contains(searchString));
             }
 
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             return View("DH", hd.OrderBy(p => p.MaHoaDon).ToPagedList(pageNumber, pageSize));
         }
@@ -152,7 +154,7 @@ namespace Admin.Controllers
                 kh = kh.Where(p => p.Ten.Contains(searchString));
             }
 
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             return View("KH", kh.OrderBy(p => p.MaKhachThue).ToPagedList(pageNumber, pageSize));
         }
@@ -393,9 +395,9 @@ namespace Admin.Controllers
         {
             if (!string.IsNullOrEmpty(success))
             {
-                ViewData["success"] = success;
+                TempData["success"] = success;
             }
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             var dien = ql.Dien.OrderBy(p => p.MaDien).ToPagedList(pageNumber, pageSize);
             return View(dien);
@@ -415,14 +417,16 @@ namespace Admin.Controllers
             {
                 if (ql.Dien.Any(d => d.MaPhong == dien.MaPhong))
                 {
-                    ViewData["err"] = "Phòng này đã có chỉ số điện.";
+                    TempData["err"] = "Phòng này đã có chỉ số điện.";
                     ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
                     return View(dien);
                 }
 
+                dien.GiaTien = (dien.ChiSoMoi - dien.ChiSoCu) * dien.GiaTien;
                 ql.Dien.Add(dien);
                 ql.SaveChanges();
-                return RedirectToAction("Dien", new {success = "Bạn đã thêm chỉ số điện thành công" });
+                TempData["success"] = "Bạn đã thêm chỉ số điện thành công";
+                return RedirectToAction("Dien");
             }
             ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
             return View(dien);
@@ -432,6 +436,7 @@ namespace Admin.Controllers
         {
             ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
             var room = ql.Dien.SingleOrDefault(u => u.MaDien == id);
+            room.GiaTien = room.GiaTien / (room.ChiSoMoi - room.ChiSoCu);
             return View(room);
         }
         [HttpPost]
@@ -448,14 +453,15 @@ namespace Admin.Controllers
 
                 if (ql.Dien.Any(d => d.MaPhong == dien.MaPhong && d.MaDien != dien.MaDien))
                 {
-                    ViewData["err"] = "Phòng này đã có chỉ số điện vui lòng chọn lại .";
+                    TempData["err"] = "Phòng này đã có chỉ số điện vui lòng chọn lại .";
                     ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
                     return View(dien);
                 }
-
+                dien.GiaTien = (dien.ChiSoMoi - dien.ChiSoCu) * dien.GiaTien;
                 ql.Entry(existingRoom).CurrentValues.SetValues(dien);
                 ql.SaveChanges();
-                return RedirectToAction("Dien",new {success = "Bạn đã sửa chỉ số điện thành công" });
+                TempData["success"] = "Bạn đã sửa chỉ số điện thành công";
+                return RedirectToAction("Dien");
             }
             ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
             return View(dien);
@@ -473,12 +479,12 @@ namespace Admin.Controllers
 
             ql.Dien.Remove(roomToDelete);
             ql.SaveChanges();
-
-            return RedirectToAction("Dien",new {success = "Bạn đã xóa chỉ số điện thành công"});
+            TempData["success"] = "Bạn đã xóa chỉ số điện thành công";
+            return RedirectToAction("Dien");
         }
         public ActionResult Nuoc(int? page)
         {
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             var nuoc = ql.Nuoc.Include("Phong").OrderBy(p => p.MaNuoc).ToPagedList(pageNumber, pageSize);
             return View(nuoc);
@@ -537,6 +543,7 @@ namespace Admin.Controllers
         {
             ViewBag.MaPhongList = new SelectList(ql.Phong, "MaPhong", "SoPhong");
             var room = ql.Nuoc.SingleOrDefault(u => u.MaNuoc == id);
+            room.GiaTien = room.GiaTien / (room.ChiSoMoi - room.ChiSoCu);
             return View(room);
         }
         [HttpPost]
@@ -562,7 +569,7 @@ namespace Admin.Controllers
                 if (nuoc.ChiSoMoi > nuoc.ChiSoCu)
                 {
                     nuoc.GiaTien = (nuoc.ChiSoMoi - nuoc.ChiSoCu) * nuoc.GiaTien;
-                    TempData["success"] = "Bạn đã đổi thành công";
+                    TempData["success"] = "Bạn đã cập nhật thành công";
                 }
                 else
                 {
@@ -601,9 +608,9 @@ namespace Admin.Controllers
             {
                 ViewData["success"] = success;
             }
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
-            var khachThues = ql.KhachThue.OrderByDescending(p => p.MaKhachThue).ToPagedList(pageNumber, pageSize);
+            var khachThues = ql.KhachThue.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize);
             return View(khachThues);
         }
 
@@ -747,7 +754,7 @@ namespace Admin.Controllers
         }
         public ActionResult DH(int? page)
         {
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             var hd = ql.HoaDon.OrderBy(p => p.MaHoaDon).ToPagedList(pageNumber, pageSize);
             return View(hd);
@@ -758,7 +765,7 @@ namespace Admin.Controllers
             {
                 ViewData["success"] = success;
             }
-            int pageSize = 8;
+            int pageSize = 6;
             int pageNumber = (page ?? 1);
             var hd = ql.TaiKhoan.OrderBy(p => p.MaTaiKhoan).ToPagedList(pageNumber, pageSize);
             return View(hd);

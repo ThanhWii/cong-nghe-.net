@@ -72,10 +72,13 @@
     </style>
 </head>
 <body>
-    @if (ViewData["err"] != null)
+    @if (TempData["err"] != null)
     {
-        <div class="alert alert-danger">
-            @ViewData["err"]
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["err"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
     }
     @using (Html.BeginForm("AddDien", "Admin", FormMethod.Post, new { @class = "form-horizontal" }))

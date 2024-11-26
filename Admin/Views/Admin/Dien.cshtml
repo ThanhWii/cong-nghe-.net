@@ -6,13 +6,17 @@
     ViewBag.Title = "Dien";
     Layout = "~/Views/Shared/Layout.cshtml";
 }
-@if (ViewData["success"] != null)
+
+@if (TempData["success"] != null)
 {
-    <div class="alert alert-success">
-        @ViewData["success"]
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["success"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
 }
-<a href="@Url.Action("AddDien", "Admin")" class="btn btn-primary m-2">Tạo Mới</a>
+<a href="@Url.Action("AddDien", "Admin")" class="btn btn-primary m-2">Thêm Điện</a>
 <div class="row">
     <div class="col-md-6">
         @using (Html.BeginForm("SearchDien", "Admin", FormMethod.Get, new { @class = "form-inline" }))
@@ -75,10 +79,10 @@
         @if (Model.PageCount > 1)
         {
             <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Dien", new { page = 1, size = ViewBag.SelectedSize })">First</a>
+                <a class="page-link" href="@Url.Action("Dien", new { page = 1, size = ViewBag.SelectedSize })">Trang đầu</a>
             </li>
             <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageNumber - 1, size = ViewBag.SelectedSize })">Previous</a>
+                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageNumber - 1, size = ViewBag.SelectedSize })"><</a>
             </li>
             for (int i = 1; i <= Model.PageCount; i++)
             {
@@ -87,10 +91,10 @@
                 </li>
             }
             <li class="page-item @(Model.PageNumber == Model.PageCount ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageNumber + 1, size = ViewBag.SelectedSize })">Next</a>
+                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageNumber + 1, size = ViewBag.SelectedSize })">></a>
             </li>
             <li class="page-item @(Model.PageNumber == Model.PageCount ? "disabled" : "")">
-                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageCount, size = ViewBag.SelectedSize })">Last</a>
+                <a class="page-link" href="@Url.Action("Dien", new { page = Model.PageCount, size = ViewBag.SelectedSize })">Trang cuối</a>
             </li>
         }
     </ul>
