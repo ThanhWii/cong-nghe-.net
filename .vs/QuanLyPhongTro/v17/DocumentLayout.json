@@ -3,47 +3,19 @@
   "WorkspaceRootPath": "D:\\Software\\C#Project\\QuanLyPhongTro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\filters\\requireloginattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\filters\\requireloginattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\addroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\addroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\views\\admin\\editdien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\editdien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\editdien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\dien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\dien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\views\\admin\\adddien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\adddien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|d:\\software\\c#project\\quanlyphongtro\\quanlyphongtro\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|solutionrelative:quanlyphongtro\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\nuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\nuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\views\\admin\\addnuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\addnuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\addnuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -51,15 +23,7 @@
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\editnuoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\editroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\editroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\phong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\phong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|d:\\software\\c#project\\quanlyphongtro\\admin\\views\\admin\\addkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|D:\\Software\\C#Project\\QuanLyPhongTro\\admin\\views\\admin\\addkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\addkh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -102,154 +66,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequireLoginAttribute.cs",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Filters\\RequireLoginAttribute.cs",
-              "RelativeDocumentMoniker": "Admin\\Filters\\RequireLoginAttribute.cs",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Filters\\RequireLoginAttribute.cs",
-              "RelativeToolTip": "Admin\\Filters\\RequireLoginAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:58:11.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Admin\\Global.asax.cs",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Global.asax.cs",
-              "RelativeToolTip": "Admin\\Global.asax.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:46:57.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Phong.cs",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\QuanLyPhongTro\\Phong.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\Phong.cs",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\QuanLyPhongTro\\Phong.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\Phong.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T03:04:20.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dien.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Dien.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\Dien.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Dien.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\Dien.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGAAAACHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T03:09:15.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Nuoc.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Nuoc.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\Nuoc.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Nuoc.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\Nuoc.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T17:11:57.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditRoom.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\EditRoom.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditRoom.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\EditRoom.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\EditRoom.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T16:27:10.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddRoom.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddRoom.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\AddRoom.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddRoom.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\AddRoom.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAcAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAE0AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T16:16:43.525Z",
+              "WhenOpened": "2024-11-26T09:15:12.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Phong.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Phong.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\Phong.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\Phong.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\Phong.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T15:43:53.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAnwEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T15:42:43.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Web.config",
-              "RelativeDocumentMoniker": "Admin\\Web.config",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Web.config",
-              "RelativeToolTip": "Admin\\Web.config",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-26T06:49:51.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddDien.cshtml",
-              "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddDien.cshtml",
-              "RelativeDocumentMoniker": "Admin\\Views\\Admin\\AddDien.cshtml",
-              "ToolTip": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddDien.cshtml",
-              "RelativeToolTip": "Admin\\Views\\Admin\\AddDien.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:53:37.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EditDien.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\EditDien.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditDien.cshtml",
@@ -257,12 +104,11 @@
               "RelativeToolTip": "Admin\\Views\\Admin\\EditDien.cshtml",
               "ViewState": "AQIAAGcAAAAAAAAAAAAAAH0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:55:13.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T03:55:13.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "AddNuoc.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddNuoc.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\AddNuoc.cshtml",
@@ -270,12 +116,11 @@
               "RelativeToolTip": "Admin\\Views\\Admin\\AddNuoc.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T03:15:31.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T03:15:31.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "DH.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\DH.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\DH.cshtml",
@@ -287,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "TaiKhoan.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\TaiKhoan.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\TaiKhoan.cshtml",
@@ -299,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "EditNuoc.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\EditNuoc.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditNuoc.cshtml",
@@ -307,12 +152,11 @@
               "RelativeToolTip": "Admin\\Views\\Admin\\EditNuoc.cshtml",
               "ViewState": "AQIAAGQAAAAAAAAAAAAmwHgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T03:45:01.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T03:45:01.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "AddKH.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\AddKH.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\AddKH.cshtml",
@@ -320,12 +164,11 @@
               "RelativeToolTip": "Admin\\Views\\Admin\\AddKH.cshtml",
               "ViewState": "AQIAAEoAAAAAAAAAAAAAAIMAAAB3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T05:25:44.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T05:25:44.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "EditKH.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Admin\\EditKH.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditKH.cshtml",
@@ -337,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\HomeController.cs",
@@ -349,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "LayoutHome.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Shared\\LayoutHome.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Shared\\LayoutHome.cshtml",
@@ -361,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 11,
               "Title": "Layout.cshtml",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Views\\Shared\\Layout.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Shared\\Layout.cshtml",
@@ -373,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "PagedList.css",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Content\\PagedList.css",
               "RelativeDocumentMoniker": "Admin\\Content\\PagedList.css",
@@ -385,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "Site.css",
               "DocumentMoniker": "D:\\Software\\C#Project\\QuanLyPhongTro\\Admin\\Content\\Site.css",
               "RelativeDocumentMoniker": "Admin\\Content\\Site.css",

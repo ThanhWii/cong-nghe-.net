@@ -70,7 +70,7 @@ namespace Admin.Controllers
             int pageSize = 6;
             // Số trang
             int pageNumber = (page ?? 1);
-            // Lấy danh sách phòng theo mã phòng giảm dần
+            // Lấy danh sách phòng theo mã phòng tăng dần
             var phong = ql.Phong.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize);
 
             return View(phong);
