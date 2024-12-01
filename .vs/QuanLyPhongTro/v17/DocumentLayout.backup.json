@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\quanlyphongtro\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|solutionrelative:quanlyphongtro\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\views\\admin\\addroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{96653A34-EC35-46C0-8A47-6379E90AFC2C}|AccessData\\AccessData.csproj|solutionrelative:accessdata\\qlphongtro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\quanlyphongtro\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|solutionrelative:quanlyphongtro\\loaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\admin\\views\\home\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\home\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "DonHang.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Home\\DonHang.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Home\\DonHang.cshtml",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LoaiPhong.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\QuanLyPhongTro\\LoaiPhong.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\LoaiPhong.cs",
@@ -134,14 +134,14 @@
               "RelativeDocumentMoniker": "Admin\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAQwP4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwNUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T15:42:43.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\HomeController.cs",

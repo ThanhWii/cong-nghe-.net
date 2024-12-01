@@ -55,6 +55,7 @@
     <Compile Include="Dien.cs" />
     <Compile Include="HoaDon.cs" />
     <Compile Include="KhachThue.cs" />
+    <Compile Include="LoaiPhong.cs" />
     <Compile Include="Nuoc.cs" />
     <Compile Include="Phong.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -96,42 +96,97 @@
         <div class="form-group">
             Loại phòng
             <div class="col-md-10" style="width:220px;">
-                @Html.DropDownListFor(model => model.LoaiPhong, new List<SelectListItem>
+                @{
+                    // Create a new SelectListItem for "Thêm loại phòng"
+                    var LoaiPhongOption = new SelectListItem
                     {
-                        new SelectListItem { Text = "Không gác, không máy lạnh", Value = "Không gác, không máy lạnh" },
-                        new SelectListItem { Text = "Không gác, có máy lạnh", Value = "Không gác, có máy lạnh" },
-                        new SelectListItem { Text = "Có gác, không máy lạnh", Value = "Có gác, không máy lạnh" },
-                        new SelectListItem { Text = "Có gác, có máy lạnh", Value = "Có gác, có máy lạnh" },
-                    }, "Chọn loại phòng", new { @class = "form-control" })
+                        Text = "Thêm loại phòng",
+                        Value = "0",
+                        Selected = false
+                    };
+
+                    // Add this item to the ViewBag.LoaiPhongOptions list
+                    var OptionsList = new List<SelectListItem> { LoaiPhongOption };
+                    OptionsList.AddRange(ViewBag.LoaiPhongOptions as List<SelectListItem>);
+                }
+                @Html.DropDownListFor(model => model.LoaiPhong, OptionsList, "Chọn loại phòng", new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.LoaiPhong, "", new { @class = "text-danger" })
             </div>
-
+            <div class="col-md-10" style="width:220px; margin-top: 10px; display: none;" id="NewRoomTypeContainer">
+                <input type="text" class="form-control" id="NewRoomType" placeholder="Nhập loại phòng mới" />
+                <button type="button" class="btn btn-primary mt-2" id="AddRoomTypeButton">Thêm</button>
             </div>
+        </div>
 
-            <div class="form-group">
-                Giá thuê tháng
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.GiaThueThang, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(model => model.GiaThueThang, "", new { @class = "text-danger" })
+        <div class="form-group">
+            Giá thuê tháng
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GiaThueThang, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.GiaThueThang, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Trạng thái phòng
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.DaThue)
+                    @Html.ValidationMessageFor(model => model.DaThue, "", new { @class = "text-danger" })
                 </div>
             </div>
+        </div>
 
-            <div class="form-group">
-                Trạng thái phòng
-                <div class="col-md-10">
-                    <div class="checkbox">
-                        @Html.EditorFor(model => model.DaThue)
-                        @Html.ValidationMessageFor(model => model.DaThue, "", new { @class = "text-danger" })
-                    </div>
-                </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Thêm phòng</button>
             </div>
+        </div>
+    }
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdown = document.getElementById("LoaiPhong");
+            const newRoomTypeContainer = document.getElementById("NewRoomTypeContainer");
+            const addRoomTypeButton = document.getElementById("AddRoomTypeButton");
 
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <button type="submit" class="btn btn-primary">Thêm phòng</button>
-                </div>
-            </div>
-            }
+            // Show the input field if "Thêm loại phòng" is selected
+            dropdown.addEventListener("change", function () {
+                if (this.value === "0") {
+                    newRoomTypeContainer.style.display = "block";
+                } else {
+                    newRoomTypeContainer.style.display = "none";
+                }
+            });
 
+            // Send a request to the server to add the new room type
+            addRoomTypeButton.addEventListener("click", function () {
+                const newRoomType = document.getElementById("NewRoomType").value.trim();
+                if (newRoomType) {
+                    fetch('/Admin/AddRoomType', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-Requested-With': 'XMLHttpRequest'
+                        },
+                        body: JSON.stringify({ roomTypeName: newRoomType })
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                alert("Thêm loại phòng thành công!");
+                                location.reload(); // Reload the page to update the dropdown
+                            } else {
+                                alert("Đã xảy ra lỗi: " + data.message);
+                            }
+                        })
+                        .catch(error => {
+                            console.error("Error:", error);
+                            alert("Không thể thêm loại phòng mới.");
+                        });
+                } else {
+                    alert("Vui lòng nhập tên loại phòng mới.");
+                }
+            });
+        });
+    </script>
 </body>
 </html>

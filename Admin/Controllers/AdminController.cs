@@ -114,6 +114,25 @@ namespace Admin.Controllers
             int pageNumber = (page ?? 1);
             return View("Dien", dien.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
         }
+        public ActionResult SearchLoaiPhong(string searchString, int? page)
+        {
+            var dien = from p in ql.Dien select p;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                //Truy vấn theo chuỗi người dùng nhập vào và lấy ra danh sách
+                var maList = ql.Phong
+                    .Where(p => p.SoPhong.Contains(searchString))
+                    .Select(p => p.MaPhong)
+                    .ToList();
+
+                dien = dien.Where(p => p.MaPhong.HasValue && maList.Contains(p.MaPhong.Value));
+            }
+
+
+            int pageSize = 6;
+            int pageNumber = (page ?? 1);
+            return View("Dien", dien.OrderBy(p => p.MaPhong).ToPagedList(pageNumber, pageSize));
+        }
         public ActionResult SearchNuoc(string searchString, int? page)
         {
             var nuoc = from p in ql.Nuoc select p;
@@ -178,6 +197,16 @@ namespace Admin.Controllers
         [HttpGet] 
         public ActionResult AddRoom()
         {
+            // Lấy danh sách loại phòng từ database
+            var roomTypes = ql.LoaiPhong.Select(lp => new SelectListItem
+            {
+                Text = lp.TenLP,
+                Value = lp.MaLP.ToString()
+            }).ToList();
+
+            // Thêm danh sách loại phòng vào thẻ LoaiPhongOptions
+            ViewBag.LoaiPhongOptions = roomTypes;
+
             return View();
         }
         [HttpPost]
@@ -199,13 +228,59 @@ namespace Admin.Controllers
                 TempData["success"] = "Bạn đã thêm phòng thành công";
                 return RedirectToAction("Phong");
             }
+            // Tạo lại danh sách LoaiPhongOptions mới
+            ViewBag.LoaiPhongOptions = ql.LoaiPhong.Select(lp => new SelectListItem
+            {
+                Text = lp.TenLP,
+                Value = lp.MaLP.ToString()
+            }).ToList();
+
             return View(phong);
         }
+        [HttpPost]
+        public JsonResult AddRoomType(string roomTypeName)
+        {
+            if (string.IsNullOrWhiteSpace(roomTypeName))
+            {
+                return Json(new { success = false, message = "Tên loại phòng không được để trống." });
+            }
 
+            try
+            {
+                // Add the new room type to the database
+                var newRoomType = new LoaiPhong
+                {
+                    TenLP = roomTypeName
+                };
+                ql.LoaiPhong.Add(newRoomType);
+                ql.SaveChanges();
+
+                return Json(new { success = true });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Lỗi: " + ex.Message });
+            }
+        }
         public ActionResult EditRoom(int id)
         {
             //Truy vấn phòng theo mã phòng
-            var room = ql.Phong.SingleOrDefault(u => u.MaPhong == id);
+            var room = ql.Phong.SingleOrDefault(phong => phong.MaPhong == id);
+            if (room == null)
+            {
+                return HttpNotFound();
+            }
+
+            // Truy vấn danh sách loại phòng từ database
+            var roomTypes = ql.LoaiPhong
+                             .Select(lp => new SelectListItem
+                             {
+                                 Text = lp.TenLP,   // Room type name
+                                 Value = lp.MaLP.ToString() // Room type ID or unique value
+                             }).ToList();
+
+            // Lưu danh sách loại phòng vào ViewBag
+            ViewBag.LoaiPhongOptions = roomTypes;
             return View(room);
         }
         [HttpPost]

@@ -22,3 +22,15 @@ D:\Software\C#Project\QuanLyPhongTro\QuanLyPhongTro\obj\Debug\Model.csproj.CoreC
 D:\Software\C#Project\QuanLyPhongTro\QuanLyPhongTro\obj\Debug\Model.csproj.Up2Date
 D:\Software\C#Project\QuanLyPhongTro\QuanLyPhongTro\obj\Debug\QuanLyPhongTro.dll
 D:\Software\C#Project\QuanLyPhongTro\QuanLyPhongTro\obj\Debug\QuanLyPhongTro.pdb
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\QuanLyPhongTro.dll.config
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\QuanLyPhongTro.dll
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\QuanLyPhongTro.pdb
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\EntityFramework.dll
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\EntityFramework.xml
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\obj\Debug\Model.csproj.Up2Date
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\obj\Debug\QuanLyPhongTro.dll
+C:\Users\ThienPad\Documents\TDTU\CN.net\cong-nghe-.net\QuanLyPhongTro\obj\Debug\QuanLyPhongTro.pdb
