@@ -20,6 +20,7 @@ namespace QuanLyPhongTro
         public virtual DbSet<Phong> Phong { get; set; }
         public virtual DbSet<TaiKhoan> TaiKhoan { get; set; }
         public virtual DbSet<LoaiPhong> LoaiPhong { get; set; }
+        public virtual DbSet<ThongKe> ThongKe { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

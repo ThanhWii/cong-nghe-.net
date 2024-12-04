@@ -268,6 +268,7 @@
     <Content Include="Views\Home\DonHang.cshtml" />
     <Content Include="Views\Admin\Pass.cshtml" />
     <Content Include="Views\Admin\Forget.cshtml" />
+    <Content Include="Views\Admin\ThongKe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

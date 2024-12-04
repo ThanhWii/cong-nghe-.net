@@ -194,6 +194,19 @@ namespace Admin.Controllers
             int pageNumber = (page ?? 1);
             return View("TaiKhoan", tk.OrderBy(p => p.MaTaiKhoan).ToPagedList(pageNumber, pageSize));
         }
+        public ActionResult ThongKe(int page = 1, int pageSize = 6)
+        {
+            page = page < 1 ? 1 : page;
+
+            ql.Database.ExecuteSqlCommand("EXEC UpdateThongKe");
+
+            var thongKeData = ql.ThongKe
+                                .OrderBy(t => t.Thang)
+                                .ToPagedList(page, pageSize);
+            ViewBag.SelectedSize = pageSize;
+
+            return View(thongKeData);
+        }
         [HttpGet] 
         public ActionResult AddRoom()
         {
