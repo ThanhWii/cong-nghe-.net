@@ -26,6 +26,8 @@ namespace QuanLyPhongTro
         [StringLength(20)]
         public string DienThoai { get; set; }
 
+        public string Mail { get; set; }
+
         [Column(TypeName = "date")]
         public DateTime NgayVaoO { get; set; }
 

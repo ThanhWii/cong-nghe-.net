@@ -15,6 +15,7 @@ using iTextSharp.text.pdf;
 using System.Text.RegularExpressions;
 using Org.BouncyCastle.Crypto.Macs;
 using Admin.Filters;
+using Admin.Helpers;
 
 namespace Admin.Controllers
 {
@@ -387,16 +388,22 @@ namespace Admin.Controllers
                 return RedirectToAction("Phong", new { error = "Phòng này chưa tính chỉ số nước hoặc chỉ số điện." });
             }
             var kh = ql.KhachThue.FirstOrDefault(k => k.MaPhong == maPhong);
+            if (kh == null)
+            {
+                return HttpNotFound("Không tìm thấy khách thuê.");
+            }
             //Hàm tính tiền đơn giản
-            decimal tienPhong = phong.GiaThueThang;
-            decimal? tienDien = (dien.ChiSoMoi - dien.ChiSoCu) * dien.GiaTien;
-            decimal? tienNuoc = (nuoc.ChiSoMoi - nuoc.ChiSoCu) * nuoc.GiaTien;
-            decimal? thanhTien = tienPhong + tienDien + tienNuoc;
+            decimal tienPhong = Decimal.Round(phong.GiaThueThang);
+            decimal tienDien = Decimal.Round((dien.ChiSoMoi - dien.ChiSoCu) * dien.GiaTien);
+            decimal tienNuoc = Decimal.Round((nuoc.ChiSoMoi - nuoc.ChiSoCu) * nuoc.GiaTien);
+            decimal thanhTien = Decimal.Round(tienPhong + tienDien + tienNuoc);
+            System.Diagnostics.Debug.WriteLine($"tienPhong: {tienPhong}, tienDien: {tienDien}, tienNuoc: {tienNuoc}, thanhTien: {thanhTien}");
+
             //Tạo lập 1 hóa đơn 
             HoaDon hoadon = new HoaDon
             {
                 NgayLap = DateTime.Now, 
-                ThanhTien = thanhTien.HasValue? thanhTien.Value :0, 
+                ThanhTien = thanhTien, 
                 MaPhong = maPhong ,
                 MaKH = kh.MaKhachThue
             };
@@ -411,18 +418,62 @@ namespace Admin.Controllers
                 MaHoaDon = maHoaDon, 
                 MaPhong = maPhong, 
                 TienPhong = tienPhong, 
-                TienDien = tienDien.HasValue ? tienDien.Value : 0,
-                TienNuoc = tienNuoc.HasValue ? tienNuoc.Value : 0 
+                TienDien = tienDien,
+                TienNuoc = tienNuoc
             };
 
             ql.ChiTietHoaDon.Add(chiTietHoaDon);
             ql.SaveChanges();
+            // Compose and send the email
+            string recipientEmail = kh.Mail; // Ensure KhachThue table includes Email column
+            string subject = $"Hóa đơn tiền phòng cho phòng {phong.SoPhong}";
+            string body = $@"
+                <h1>Hóa đơn tiền phòng</h1>
+                <p><strong>Phòng:</strong> {phong.SoPhong}</p>
+                <p><strong>Tiền phòng:</strong> {tienPhong:C}</p>
+                <p><strong>Tiền điện:</strong> {tienDien:C}</p>
+                <p><strong>Tiền nước:</strong> {tienNuoc:C}</p>
+                <p><strong>Tổng cộng:</strong> {thanhTien:C}</p>
+                <p>Ngày lập hóa đơn: {DateTime.Now:dd/MM/yyyy}</p>";
+
+            try
+            {
+                EmailHelper emailHelper = new EmailHelper();
+                emailHelper.SendEmail(recipientEmail, subject, body);
+            }
+            catch (Exception ex)
+            {
+                // Handle email sending errors
+                return RedirectToAction("Phong", new { error = "Không thể gửi email: " + ex.Message });
+            }
+
             return RedirectToAction("HoaDon", new { maHoaDon = maHoaDon });
         }
         public ActionResult ChiTietHD(int id)
         {
             var cthd = ql.ChiTietHoaDon.SingleOrDefault(u=>u.MaHoaDon ==id);
             return View(cthd);
+        }
+        [HttpPost]
+        public ActionResult SendNotice()
+        {
+            try
+            {
+                var emailHelper = new EmailHelper();
+                string recipientEmail = "recipient@example.com"; // Replace with the recipient's email
+                string subject = "Important Notice";
+                string body = "<p>This is an important notice sent from the Admin system.</p>";
+
+                emailHelper.SendEmail(recipientEmail, subject, body);
+
+                ViewBag.Message = "Email sent successfully!";
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = "Error sending email: " + ex.Message;
+            }
+
+            return View();
         }
         public ActionResult InHoaDonPDF(int maHoaDon)
         {

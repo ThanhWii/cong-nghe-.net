@@ -26,15 +26,15 @@ namespace QuanLyPhongTro
         {
             modelBuilder.Entity<ChiTietHoaDon>()
                 .Property(e => e.TienPhong)
-                .HasPrecision(10, 3);
+                .HasPrecision(25, 2);
 
             modelBuilder.Entity<ChiTietHoaDon>()
                 .Property(e => e.TienDien)
-                .HasPrecision(10, 3);
+                .HasPrecision(25, 2);
 
             modelBuilder.Entity<ChiTietHoaDon>()
                 .Property(e => e.TienNuoc)
-                .HasPrecision(10, 3);
+                .HasPrecision(25, 2);
 
             modelBuilder.Entity<Dien>()
                 .Property(e => e.ChiSoCu)
@@ -50,7 +50,7 @@ namespace QuanLyPhongTro
 
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.ThanhTien)
-                .HasPrecision(10, 3);
+                .HasPrecision(25, 2);
 
             modelBuilder.Entity<Nuoc>()
                 .Property(e => e.ChiSoCu)

@@ -118,6 +118,14 @@
     </div>
 
     <div class="form-group">
+        @Html.LabelFor(model => model.Mail, "Email", htmlAttributes: new { @class = "control-label" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Mail, new { htmlAttributes = new { @class = "form-control", type = "email", placeholder = "example@example.com" } })
+            @Html.ValidationMessageFor(model => model.Mail, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
         @Html.LabelFor(model => model.NgayVaoO, "Ngày vào", htmlAttributes: new { @class = "control-label" })
         <div class="col-md-10">
             @Html.EditorFor(model => model.NgayVaoO, new { htmlAttributes = new { @class = "form-control" } })
@@ -162,3 +170,4 @@
         @Html.ActionLink("Quay về", "KH")
     </div>
 </body>
+</html>
