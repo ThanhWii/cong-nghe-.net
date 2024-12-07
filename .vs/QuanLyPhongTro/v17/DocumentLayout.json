@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\admin\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|c:\\users\\thienpad\\documents\\tdtu\\cn.net\\cong-nghe-.net\\quanlyphongtro\\khachthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\quanlyphongtro\\khachthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|solutionrelative:quanlyphongtro\\khachthue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\views\\admin\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{1FA57B92-8C00-47D8-B770-80F176DDA4B0}|QuanLyPhongTro\\Model.csproj|solutionrelative:quanlyphongtro\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\admin\\views\\admin\\kh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A9A049B-2447-421A-A361-57DA7815B066}|Admin\\Admin.csproj|solutionrelative:admin\\views\\admin\\kh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "KhachThue.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\QuanLyPhongTro\\KhachThue.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\KhachThue.cs",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "QuanLyPhongTro\\KhachThue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T17:41:16.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T17:41:16.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EditKH.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Admin\\EditKH.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditKH.cshtml",
@@ -91,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddKH.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Admin\\AddKH.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\AddKH.cshtml",
@@ -103,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ThongKe.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\QuanLyPhongTro\\ThongKe.cs",
               "RelativeDocumentMoniker": "QuanLyPhongTro\\ThongKe.cs",
@@ -115,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ThongKe.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Admin\\ThongKe.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\ThongKe.cshtml",
@@ -127,28 +126,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAJQBAAAAZGZmZiYnwMEBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAPkDAAAAAAAAAAAowAoEAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T15:42:43.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T15:42:43.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Shared\\Layout.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Shared\\Layout.cshtml",
               "ToolTip": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Shared\\Layout.cshtml",
               "RelativeToolTip": "Admin\\Views\\Shared\\Layout.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAwFoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv1cAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T14:27:26.006Z"
+              "WhenOpened": "2024-12-01T14:27:26.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -164,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EditRoom.cshtml",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Views\\Admin\\EditRoom.cshtml",
               "RelativeDocumentMoniker": "Admin\\Views\\Admin\\EditRoom.cshtml",
@@ -176,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Web.config",
               "RelativeDocumentMoniker": "Admin\\Web.config",
@@ -189,16 +188,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EmailHelper.cs",
               "DocumentMoniker": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Helpers\\EmailHelper.cs",
               "RelativeDocumentMoniker": "Admin\\Helpers\\EmailHelper.cs",
               "ToolTip": "C:\\Users\\ThienPad\\Documents\\TDTU\\CN.net\\cong-nghe-.net\\Admin\\Helpers\\EmailHelper.cs",
               "RelativeToolTip": "Admin\\Helpers\\EmailHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:06:58.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T14:06:58.39Z"
             },
             {
               "$type": "Document",
