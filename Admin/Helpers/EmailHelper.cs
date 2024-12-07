@@ -1,15 +1,17 @@
 namespace Admin.Helpers
 {
-    using Microsoft.Extensions.Configuration;
+    //using Microsoft.Extensions.Configuration;
     using System.Net;
     using System.Net.Mail;
+    using System.Configuration;
+    using System;
 
     public class EmailHelper
     {
-        private string smtpServer = "smtp.gmail.com"; 
-        private int port = 587; 
-        private string senderEmail = "tranthanhnhatthien@gmail.com"; 
-        private string senderPassword = "uyms fkqv cbid lzzv"; 
+        private string smtpServer = ConfigurationManager.AppSettings["SmtpServer"]; 
+        private int port = Int16.Parse(ConfigurationManager.AppSettings["Port"]); 
+        private string senderEmail = ConfigurationManager.AppSettings["SenderEmail"];
+        private string senderPassword = ConfigurationManager.AppSettings["SenderPass"]; 
 
         // Empty constructor for default settings
         public EmailHelper()
